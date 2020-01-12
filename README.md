@@ -1,1 +1,1 @@
-# Weatrher-Dashboard-Homework
+# Weather-Dashboard-Homework
