@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <title>Document</title>
+</head>  
+<body>
+    <div class="card text-center">
+        <div class="card-header-1">
+        
+        </div>
+        <div class="card-body-1">
+          <h1>Weather Dashboard</h1>
+        </div>
+      </div>
+     
+      </nav>
+      <div class="box-container"> <!------- Box with the search bar, list , and second box-container for the weathe update-->
+        <nav class= "navbar navbar-black bg-black">
+                <form class="form-inline">
+                    <h2>Search For a City:</h2>
+                   <input class="form-control mr-sm-2" id="city-data" type="search" placeholder="Search" aria-label="Search">
+                   <button class="btn btn-outline-success my-2 my-sm-0" id="search-button" type="submit">Search</button>
+                   </form>
+                   </nav>
+                   <div class="row">
+                   <ul id="city-list" class="list-group">
+                       <br />
+
+                   
+                    </ul>
+                    </div>
+                    </div>
+                    <button id="clear-cities" class="btn btn-primary btn-lg">Clear</button>
+                    <div class="box-container-2">
+                     <div class="card">
+                         <div class="card-header-2">
+                         </div>
+                         <div class="card-body-current">
+                           <img id="current-weather-image"></img>
+                           <h3 id="city" class="card-title">City</h3>
+                           <p id="temp">Temperature:</p>
+                           <p id="humidity">Humidity:</p>
+                           <p id="wind-speed">Windspeed:</p>
+                           <p id="uv-index">UV Index:</p>
+                         </div>
+                       </div>
+                 </div>
+                 <!----- Last Box in the bottom contains the 5 day forecast -->
+                 <div class="box-container">
+                    <div class="body">
+                      <div class="row p-4">
+                        <div class="col-md-12">
+                          <h2>5 Day Forecast</h2>
+                          <div id="forecast" class="row">
+                              
+
+    
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                          
+            
+                    <script src="script.js"></script>
+                    <script src="moment-time.js"></script>
+                   
+    
+</body>
+</html>

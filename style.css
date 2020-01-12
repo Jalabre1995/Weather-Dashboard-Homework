@@ -1,0 +1,55 @@
+body {
+    background-color: cyan;
+}
+h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box-container {
+    padding: 46px;
+} 
+ 
+.box-container-3 {
+    width: 75%; 
+    float: right;
+}
+
+.box-container-2 {
+    width: 75%;
+}
+
+.card-body-2 {
+    padding: 50px;
+} 
+
+.list-group  {
+    width: 25%;
+}
+
+.card-header-3 {
+    margin: -1px;
+}
+
+.card-body-4 {
+    width: 175px;
+    margin: 10px;
+    
+}
+.card {
+    margin: 10px;
+}
+
+.card-text {
+    background-color: rgb(83, 83, 200);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+.card-title {
+    font-size: medium;
+}
+
+.body {
+background-color: floralwhite;
+}
